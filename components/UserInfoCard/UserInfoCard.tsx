@@ -1,6 +1,6 @@
 import { Card, Avatar, Text, Group, Button, Indicator } from "@mantine/core";
 import classes from "./UserInfoCard.module.css";
-import { IconCheck, IconCircleCheckFilled } from "@tabler/icons-react";
+import { IconCircleCheckFilled } from "@tabler/icons-react";
 
 const stats = [
   { value: "34K", label: "Followers" },

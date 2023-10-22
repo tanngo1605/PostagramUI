@@ -1,4 +1,4 @@
-import { Skeleton, Container, Grid } from "@mantine/core";
+import { Container, Grid } from "@mantine/core";
 import NavBar from "../components/Navbar/NavBar";
 import CreatePostModal from "../components/CreatePost/CreatePostModal";
 import UserInfoCard from "../components/UserInfoCard/UserInfoCard";
