@@ -2,8 +2,10 @@ import "@mantine/core/styles.css";
 import Head from "next/head";
 import { MantineProvider } from "@mantine/core";
 import { theme } from "../theme";
+import "./styles.css";
 
 export default function App({ Component, pageProps }: any) {
+  console.log("Initialize app");
   return (
     <MantineProvider theme={theme}>
       <Head>
